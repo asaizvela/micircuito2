@@ -1,0 +1,3 @@
+- [Inici](README.md)
+- [Teoria del circuit](teoria.md)
+- [Muntatge pràctic](muntatge.md)

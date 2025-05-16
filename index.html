@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Pràctica 1 </title>
+  <title>Pràctica 1</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -34,6 +34,11 @@
       box-shadow: 0 0 8px rgba(0,0,0,0.1);
       margin-bottom: 1em;
     }
+
+    /* Estilo para la barra lateral */
+    .sidebar {
+      background-color: #fff;
+    }
   </style>
 </head>
 <body>
@@ -42,11 +47,18 @@
   <script>
     window.$docsify = {
       name: 'PR1 Fonaments Enginyeria Electrònica UdL',
-      //repo: 'https://github.com/asaizvela/micircuito2',
-      homepage: 'README.md'
+      homepage: 'README.md',
+      loadSidebar: true,         // activa la barra lateral
+      subMaxLevel: 2,            // niveles de título en la barra lateral
+      loadNavbar: false,
+      themeColor: '#2c3e50',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'  // soporte para GitHub Pages
+      }
     };
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
+

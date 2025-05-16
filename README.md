@@ -1,10 +1,10 @@
-# Exemple de circuit
+# Primer pas
 
 Esquema del circuit generat amb Circuitikz.
 
 ![Circuito Electrónico](ejemplo.svg)
 
-# Muntatge pràctic
+# Segons pas
 
 Cal que realitzeu el següent muntatge.
 

@@ -3,21 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <title>Exemple de circuit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 1em;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      font-size: 2em;
+      margin: 1em 0;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    h2, h3, h4, h5, h6 {
+      margin: 0.75em 0;
+      font-weight: bold;
+      color: #34495e;
+    }
+    p {
+      margin: 0.5em 0 1em 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      background-color: white;
+      padding: 0.5em;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      margin-bottom: 1em;
+    }
+  </style>
 </head>
 <body>
-  <div id="app">Cargando contenido...</div>
+  <div id="app">Cargando contenido
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      window.$docsify = {
-        name: 'Exemple de circuit',
-        repo: 'https://github.com/asaizvela/micircuito2',
-        homepage: 'README.md'
-      };
-      var script = document.createElement('script');
-      script.src = "https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js";
-      document.body.appendChild(script);
-    });
-  </script>
-</body>
-</html>

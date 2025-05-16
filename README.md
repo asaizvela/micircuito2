@@ -2,7 +2,7 @@
 
 Esquema del circuit generat amb Circuitikz.
 
-![Circuito Electrónico](ejemplo.svg)
+<img src="circuito.svg" alt="Circuito" width="300">
 
 # Segon pas
 
